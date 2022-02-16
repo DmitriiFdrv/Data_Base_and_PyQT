@@ -1,0 +1,36 @@
+2022-02-16 18:25:27,994 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-02-16 18:25:27,994 INFO     server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-16 18:26:02,208 INFO     server.py Установлено соедение с ПК ('127.0.0.1', 59318)
+2022-02-16 18:26:02,208 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59318)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:26:02,208 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645017962.2088635, 'user': {'account_name': 'q'}}
+2022-02-16 18:26:02,208 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция send_message c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59318)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-02-16 18:26:29,369 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59318)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:26:29,369 DEBUG    server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1645017989.137918, 'account_name': 'q'}
+2022-02-16 18:26:29,369 INFO     server.py Клиент ('127.0.0.1', 59318) отключился от сервера.
+2022-02-16 18:26:46,473 INFO     server.py Установлено соедение с ПК ('127.0.0.1', 59340)
+2022-02-16 18:26:46,473 INFO     server.py Установлено соедение с ПК ('127.0.0.1', 59341)
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=120, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59340)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,473 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645018006.4733403, 'user': {'account_name': 'mes2'}}
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция send_message c параметрами (<socket.socket fd=120, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59340)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59341)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,473 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645018006.4733403, 'user': {'account_name': 'mes3'}}
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция send_message c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59341)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,473 INFO     server.py Установлено соедение с ПК ('127.0.0.1', 59342)
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59342)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,473 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645018006.4733403, 'user': {'account_name': 'mes1'}}
+2022-02-16 18:26:46,473 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция send_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59342)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-02-16 18:26:46,789 DEBUG    decors.py 2022-02-16 18:26:46. Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-02-16 18:26:46,789 INFO     server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-16 18:27:19,803 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=120, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59340)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:27:19,803 DEBUG    server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'mes2', 'to': 'mes1', 'time': 1645018039.7035396, 'mess_text': 'hgjhgjg'}
+2022-02-16 18:27:19,803 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция send_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59342)>, {'action': 'message', 'sender': 'mes2', 'to': 'mes1', 'time': 1645018039.7035396, 'mess_text': 'hgjhgjg'}), {}. Вызов из модуля common.utils
+2022-02-16 18:27:19,803 INFO     server.py Отправлено сообщение пользователю mes1 от пользователя mes2.
+2022-02-16 18:27:28,956 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=120, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59340)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:27:28,956 DEBUG    server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1645018048.6344256, 'account_name': 'mes2'}
+2022-02-16 18:27:28,956 INFO     server.py Клиент ('127.0.0.1', 59340) отключился от сервера.
+2022-02-16 18:27:35,997 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59342)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:27:35,997 DEBUG    server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1645018055.5973415, 'account_name': 'mes1'}
+2022-02-16 18:27:35,997 INFO     server.py Клиент ('127.0.0.1', 59342) отключился от сервера.
+2022-02-16 18:27:44,026 DEBUG    decors.py 2022-02-16 18:25:27. Была вызвана функция get_message c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59341)>,), {}. Вызов из модуля common.utils
+2022-02-16 18:27:44,026 DEBUG    server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1645018063.8566592, 'account_name': 'mes3'}
+2022-02-16 18:27:44,026 INFO     server.py Клиент ('127.0.0.1', 59341) отключился от сервера.
